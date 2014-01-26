@@ -312,9 +312,9 @@ EPub.prototype.parseMetadata = function (metadata) {
             break;
         case "subject":
             if (Array.isArray(metadata[keys[i]])) {
-                this.metadata.subject = String(metadata[keys[i]][0] && metadata[keys[i]][0]["#"] || metadata[keys[i]][0] || "").trim();
+                this.metadata.subject = metadata[keys[i]]
             } else {
-                this.metadata.subject = String(metadata[keys[i]]["#"] || metadata[keys[i]] || "").trim();
+                this.metadata.subject = [ ]
             }
             break;
         case "description":
