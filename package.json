@@ -9,10 +9,10 @@
             "email":"andris@node.ee"
         }
     ],
-    "homepage": "http://github.com/andris9/epub",
+    "homepage": "http://github.com/jonathon-love/epub",
     "repository" : {
         "type" : "git",
-        "url" : "http://github.com/andris9/epub.git"
+        "url" : "http://github.com/jonathon-love/epub.git"
     },
     "main" : "./epub",
     "licenses" : [
